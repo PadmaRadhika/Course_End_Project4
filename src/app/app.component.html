@@ -1,13 +1,13 @@
+
 <nav>
   <ul class="nav-links">
-    <li><a [routerLink]="['/']">Home</a></li>
+    <li><a routerLink="/">Home</a></li>
     <li><a routerLink="/owner-registration">Owner Registration</a></li>
     <li><a routerLink="/pet-registration">Pet Registration</a></li>
     <li><a routerLink="/book-appointment">Book Appointment</a></li>
   </ul>
 </nav>
 
-<div class="my-form">
-  
+<div>
   <router-outlet></router-outlet> <!-- This is where routed components will be displayed -->
 </div>
