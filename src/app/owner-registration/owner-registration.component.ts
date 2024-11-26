@@ -32,7 +32,7 @@ export class OwnerRegistrationComponent {
         this.message = 'Owner registered successfully!';
       },
       error: (error) => {
-        this.message = 'Owner registration failed: ' + error.error;
+        this.message = 'Owner registration failed: ' + error.error?.message;
       }
     });
   }
